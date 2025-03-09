@@ -1,14 +1,18 @@
+#container{
+    width: 1000px;
+    margin: 2px auto 0;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
 }
 
-#navbar{
-    display: block;
-    
+#logo{
+    margin: 2px;
 }
 
-#container{
-    width: 1000px;
+#navbar ul li{
+    display: inline-block;
     margin: 2px auto;
 }
