@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar{
+    display: block;
+    
+}
+
+#container{
+    width: 1000px;
+    margin: 2px auto;
+}
