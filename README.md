@@ -1,2 +1,0 @@
-# Portofolio
-Stern's Portofolio
