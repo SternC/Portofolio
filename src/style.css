@@ -1,0 +1,74 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+#nav, #home, #lists, #footer {
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 1s ease-out forwards;
+}
+
+#home {
+    animation-delay: 0.3s;
+}
+#lists {
+    animation-delay: 0.6s;
+}
+#footer {
+    animation-delay: 0.9s;
+}
+
+hr {
+    animation-delay: 0.2s;
+}
+
+
+.school-section {
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+#school1 {
+    animation: fadeInRight 1s ease-out 0.2s forwards;
+}
+
+#school2 {
+    animation: fadeInLeft 1s ease-out 0.4s forwards;
+}
+
+#school3 {
+    animation: fadeInRight 1s ease-out 0.6s forwards;
+}
+
